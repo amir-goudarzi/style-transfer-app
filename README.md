@@ -8,9 +8,8 @@ A Python project for applying style transfer to images using PyTorch.
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
+- [Usage and Configuration](#Usage and Configuration)
+- 
 
 ## Introduction
 
@@ -21,7 +20,6 @@ This project allows you to apply style transfer techniques to images, creating a
 - Apply style transfer to images
 - Customizable style and content images
 - Configurable hyperparameters
-- Easy-to-use interface (provided in `main.py`)
 
 ## Installation
 
@@ -34,3 +32,9 @@ This project allows you to apply style transfer techniques to images, creating a
 3. Install the required Python packages from requirements.txt:
    ```bash
    pip install -r requirements.txt
+
+## Usage and Configuration 
+
+1. Specify the directories for style and content images
+2. Adjust the hyperparameters (e.g., a and b for content and style loss) to control the output style
+3. Run all the cells , visualize and save the generated image at then end
