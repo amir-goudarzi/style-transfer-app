@@ -7,9 +7,7 @@ A Python project for applying style transfer to images using PyTorch.
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Usage and Configuration](#Usage and Configuration)
-- 
+- [Usage and Configuration](#Usage-and-Configuration)
 
 ## Introduction
 
