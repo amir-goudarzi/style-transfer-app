@@ -2,7 +2,7 @@
 
 A Python project for applying style transfer to images using PyTorch.
 
-![alt text](https://github.com/Amir-Goudarzi/style-transfer-app/blob/main/examples/generation1.jpg?raw=true)
+![alt text](https://github.com/Amir-Goudarzi/style-transfer-app/blob/main/examples/Example.jpg?raw=true)
 
 ## Table of Contents
 
