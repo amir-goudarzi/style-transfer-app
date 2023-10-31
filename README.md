@@ -2,7 +2,7 @@
 
 A Python project for applying style transfer to images using PyTorch.
 
-![Stylized Image](./examples/generated2)
+![Stylized Image](./examples/generation1)
 
 ## Table of Contents
 
