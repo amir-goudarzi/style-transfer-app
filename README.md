@@ -28,3 +28,9 @@ This project allows you to apply style transfer techniques to images, creating a
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/Amir-Goudarzi/style-transfer-app.git
+2. Navigate to the project directory:
+   '''bash
+   cd style-transfer-app
+3. Install the required Python packages from requirements.txt:
+   '''bash
+   pip install -r requirements.txt
