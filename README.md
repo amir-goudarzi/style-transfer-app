@@ -13,7 +13,7 @@ A Python project for applying style transfer to images using PyTorch.
 
 ## Introduction
 
-This project allows you to apply style transfer techniques to images, creating artistic and visually appealing results. It utilizes PyTorch and pre-trained VGG16 models to achieve this.
+This project allows you to apply style transfer techniques to images, creating artistic and visually appealing results using the [Gatys et al's neural algorithm for artistic style](https://arxiv.org/abs/1508.06576). It utilizes PyTorch and pre-trained VGG16 models to achieve this.
 
 ## Features
 
