@@ -15,7 +15,7 @@ def load_images(style_path, content_path, device, new_size=(512, 512)):
 def save_images(output_img, output_img_path= './', concated= False, content_img= None, style_img= None): 
 
     image_to_save = cv2.cvtColor((output_img.squeeze().permute(1, 2, 0).detach().cpu().numpy() * 255.0), cv2.COLOR_RGB2BGR)
-    out = os.path.join(output_img_path, '/output.jpg')
+    out = os.path.join(output_img_path, 'output.jpg')
     cv2.imwrite(out, image_to_save)
     
     if concated:
