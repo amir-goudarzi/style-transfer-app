@@ -9,7 +9,7 @@ import options
 def main(configs):
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    model = vgg16(VGG16_Weights).to(device)
+    model = vgg16(weights=VGG16_Weights.DEFAULT).to(device)
     style_img_path, content_img_path, output_img_path = configs.style_path, configs.content_path, configs. output_path
     style_img, content_img = load_images(style_img_path, content_img_path, device)
     output_img = apply_style(content_img, style_img, model, configs.alpha_beta_ratio, configs.num_steps)
