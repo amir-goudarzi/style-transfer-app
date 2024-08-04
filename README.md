@@ -23,7 +23,7 @@ This project allows you to apply style transfer techniques to images using a sma
 
 ## Installation
 
-1. Clone this repository to your local machine:
+1. Clone this repository to your local machine, preferably with a GPU (for instance on Colab):
    ```bash
    git clone https://github.com/Amir-Goudarzi/style-transfer-app.git
 2. Navigate to the project directory:
@@ -35,7 +35,7 @@ This project allows you to apply style transfer techniques to images using a sma
 
 ## Usage and Configuration 
 
-   Use the following script to run the app, preferably on a GPU (for instance on Colab).
+   Use the following script to run the app.
 
    ```bash
    STYLE_PATH="style-transfer-app/examples/style1.jpg"
