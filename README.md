@@ -35,6 +35,8 @@ This project allows you to apply style transfer techniques to images using a sma
 
 ## Usage and Configuration 
 
+   Use the following script to run the app, preferably on a GPU (for instance on Colab).
+
    ```bash
    STYLE_PATH="style-transfer-app/examples/style1.jpg"
    CONTENT_PATH="style-transfer-app/examples/new-york-city.jpg"
