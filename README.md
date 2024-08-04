@@ -44,9 +44,9 @@ This project allows you to apply style transfer techniques to images using a sma
    NUM_STEPS=10
    ALPHABETA_RATIO=1e-4
    
-   python3 /src/main.py \
+   python ./src/main.py \
        --style_path "$STYLE_PATH" \
        --content_path "$CONTENT_PATH" \
        --output_path "$OUTPUT_PATH" \
-       --num_steps "&NUM_STEPS" \
+       --num_steps "$NUM_STEPS" \
        --alpha_beta_ratio "$ALPHABETA_RATIO"
