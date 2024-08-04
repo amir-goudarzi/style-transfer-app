@@ -35,17 +35,18 @@ This project allows you to apply style transfer techniques to images using a sma
 
 ## Usage and Configuration 
 
-   Use the following script to run the app.
+   Use the following script to specify the parameters and run the app. 
 
    ```bash
-   STYLE_PATH="style-transfer-app/examples/style1.jpg"
-   CONTENT_PATH="style-transfer-app/examples/new-york-city.jpg"
-   OUTPUT_PATH="./"
+   STYLE_PATH="./examples/style1.jpg"
+   CONTENT_PATH="./examples/new-york-city.jpg"
+   OUTPUT_PATH="./examples"
+   NUM_STEPS=10
    ALPHABETA_RATIO=1e-4
    
    python3 /src/main.py \
        --style_path "$STYLE_PATH" \
        --content_path "$CONTENT_PATH" \
        --output_path "$OUTPUT_PATH" \
+       --num_steps "&NUM_STEPS" \
        --alpha_beta_ratio "$ALPHABETA_RATIO"
-
