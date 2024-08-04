@@ -43,7 +43,7 @@ This project allows you to apply style transfer techniques to images using a sma
    OUTPUT_PATH="./"
    ALPHABETA_RATIO=1e-4
    
-   python3 style-transfer-app/src/main.py \
+   python3 /src/main.py \
        --style_path "$STYLE_PATH" \
        --content_path "$CONTENT_PATH" \
        --output_path "$OUTPUT_PATH" \
