@@ -53,7 +53,7 @@ def generate(optimizer, closure, steps, W: list, a, b):
         print(f'Step number {step}')
 
 
-def apply_style(content_img, style_img, model, ratio):
+def apply_style(content_img, style_img, model, ratio, num_steps):
 
     content_layer = 19
     style_layers = [0, 5, 10, 17, 24]
@@ -95,7 +95,7 @@ def apply_style(content_img, style_img, model, ratio):
 
         return total_loss
     
-    steps = range(1, 16)
+    steps = range(1, num_steps + 1)
     W = [(1 / len(style_layers)) for x in range(len(style_layers))]
     generate(optimizer, closure, steps, W, a, b)
 
