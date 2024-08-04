@@ -35,6 +35,15 @@ This project allows you to apply style transfer techniques to images using a sma
 
 ## Usage and Configuration 
 
-1. Specify the directories for style and content images
-2. Adjust the hyperparameters (e.g., a and b for content and style loss) to control the output style
-3. Run all the cells , visualize and save the generated image at then end
+   ```bash
+   STYLE_PATH="style-transfer-app/examples/style1.jpg"
+   CONTENT_PATH="style-transfer-app/examples/new-york-city.jpg"
+   OUTPUT_PATH="./"
+   ALPHABETA_RATIO=1e-4
+   
+   python3 style-transfer-app/src/main.py \
+       --style_path "$STYLE_PATH" \
+       --content_path "$CONTENT_PATH" \
+       --output_path "$OUTPUT_PATH" \
+       --alpha_beta_ratio "$ALPHABETA_RATIO"
+
